@@ -724,6 +724,7 @@ table {
 	.section-five .right, .section-five .left{
 		top: 80px;
 	}
+	
 }
 
 @media screen and (max-width: 765px){
@@ -772,6 +773,22 @@ table {
 	.section-five h2{
 		font-size: 40px;
         line-height: 56px;
+	}
+	.section-six .second-part .usual .forth-card, .section-six .second-part .part-swipe .forth-card{
+		width: 100%;
+		max-width: 100%;
+	}
+	.section-six .second-part .usual .third-card, .section-six .second-part .part-swipe .third-card{
+		width: 100%;
+		max-width: 100%;
+	}
+	.section-six .second-part .usual .second-card, .section-six .second-part .part-swipe .second-card{
+		width: 100%;
+		max-width: 100%;
+	}
+	.section-six .second-part .usual .first-card, .section-six .second-part .part-swipe .first-card{
+		width: 100%;
+		max-width: 100%;
 	}
 	
 }

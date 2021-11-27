@@ -66,9 +66,8 @@
 
 .section-one .acc .all .right{
     grid-column: 2;
-    width: 100%;
-    max-width: 100%;
-   
+    width: 96%;
+    max-width: 96%;
 }
 
 .section-one .acc .all .high{
@@ -95,7 +94,7 @@
 
 .section-one .acc .all .high .bot-n{
     margin-top: 48px;
-    width: 100%;
+    width: 96%;
     max-width: 100%;
     padding: 28px;
     border-bottom: 0;
@@ -191,7 +190,7 @@
     width: 52%;
     max-height: 55%;
     top: 100%;
-    bottom: 136px;
+    /* bottom: 136px; */
 }
 
 .section-one .acc .all .left .vid{
@@ -354,7 +353,7 @@
     }   
 }
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 768px){
     .section-one h2{
         font-size: 42px;
         line-height: 58px;
@@ -403,8 +402,8 @@
     
     .section-one .transform .first{
         margin-top: 48px;
-        width: 100%;
-        max-width: 100%;
+        width: 96%;
+        max-width: 96%;
         padding: 28px;
         font-family: 'Poppins';
         font-size: 24px;
@@ -460,6 +459,9 @@
         font-feature-settings: 'pnum' on, 'lnum' on;
         color: #79799B;
         border-radius: 0;
+    }
+    .section-one .acc .all .left{
+        top: 50%;
     }
 }
 
