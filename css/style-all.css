@@ -98,6 +98,7 @@ table {
 .head header nav{
 	max-width: 386px;
 	width: 100%;
+	z-index: 10;
 }
 
 .head header nav ul{
